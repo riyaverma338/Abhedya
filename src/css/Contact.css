@@ -1,0 +1,16 @@
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+  }
+
+  #contact{
+      margin-left: 250px;
+      margin-right: 250px;
+  }
+
+  .btn{
+      background-color: #000;
+      color: white;
+      padding: 12px 70px;
+      border-radius: 25px;
+  }

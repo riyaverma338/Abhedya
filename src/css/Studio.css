@@ -1,0 +1,41 @@
+.text{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.container{
+   margin-top: 50px;
+}
+
+.images{
+    display:grid;
+    grid-template-columns: 350px 350px 648px;
+    margin-top: 100px;
+}
+
+.slides{
+    position: relative;
+}
+
+.slide_one , .slide_two{
+    position: absolute;
+    right: 0px;
+}
+
+.slide_one{
+    animation: fade 9s infinite;
+}
+.slide_two{
+    animation: fade1 9s infinite;
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+  }
+
+  @keyframes fade1 {
+    0%,100% { opacity: 1 }
+    50% { opacity: 0 }
+  }

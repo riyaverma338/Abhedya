@@ -1,0 +1,15 @@
+.collage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.collage-1{
+    display: grid;
+    grid-template-rows: 30% 10% 70%;
+}
+
+.collage-2{
+    display: grid;
+    grid-template-rows: 70% 10% 30%;
+}
