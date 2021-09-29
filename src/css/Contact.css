@@ -14,3 +14,11 @@
       padding: 12px 70px;
       border-radius: 25px;
   }
+.social-icons >i{
+    padding: 15px;
+    color: gray;
+}
+  .contents{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}

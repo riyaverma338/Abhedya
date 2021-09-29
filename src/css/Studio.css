@@ -5,13 +5,13 @@
 }
 
 .container{
-   margin-top: 50px;
+   margin-top: 100px;
 }
 
 .images{
     display:grid;
     grid-template-columns: 350px 350px 648px;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .slides{

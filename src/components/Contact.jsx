@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Contact.css'
 import AOS from "../../node_modules/aos";
 import "aos/dist/aos.css";
+import map from '../assets/map.jpg';
 import { useEffect } from 'react'
 
 export default function Contact() {
@@ -52,6 +53,21 @@ export default function Contact() {
   <button className="btn">SEND MESSAGE</button>
   </div>
 </form>
+        </div>
+        <div id="footer" style={{marginTop:100}} data-aos="fade-up"> 
+        <img src={map} height="300" width="100%"/>
+        <div className="contents" style={{backgroundColor:'black', height:350, color:'white'}} >
+          <h4 style={{paddingLeft:100, paddingTop:80}}><i class="bi bi-geo-alt-fill" style={{paddingRight:10, alignItems:'baseline', display:'inline-flex'}}></i>State of Rio de Janerio, Brazil
+          <br/><br/><span style={{fontWeight:300, fontSize:16, letterSpacing:1.8}}>info@company.com</span></h4>
+          <br/><h6 style={{fontWeight:100, color:'grey',paddingLeft:100, fontSize:14, }}>Copyright @Riya Verma<br/><br/>Designed by Riya</h6>
+          <div className="social-icons">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-whatsapp"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-youtube"></i>
+          </div>
+        </div>
         </div>
         </>
     )
